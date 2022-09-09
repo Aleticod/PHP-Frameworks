@@ -11,7 +11,12 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
         <div class="container">
             <a href="/" class="navbar-brand h1">FW</a>
-            <a href="/contact" class="navbar-brand p">contact</a>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a href="/contact" class="nav-link">Contact</a>
+                </li>
+
+            </ul>
         </div>
     </nav>
     <div class="container">
