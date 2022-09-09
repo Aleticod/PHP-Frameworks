@@ -11,6 +11,10 @@ class Request {
         // https://platzi.com/servicios/index
 
         $this->segments = explode('/', $_SERVER['REQUEST_URI']);
+        
+        var_dump($_SERVER['REQUEST_URI']);
+        echo "<br>";
+        var_dump($this->segments);
 
         $this->setController();
         $this->setMethod();
