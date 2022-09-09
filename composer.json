@@ -1,0 +1,19 @@
+{
+    "name": "harvey/php-frameworks",
+    "description": "Basic Project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aleticod"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/helpers.php"
+        ]
+    }
+}
